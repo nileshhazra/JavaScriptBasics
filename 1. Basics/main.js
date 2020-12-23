@@ -23,6 +23,6 @@ let isApproved = false; // Boolean Literal
 let address = undefined;
 let selectedColor = null;
 
-console.log(typeof(name));
-console.log(typeof(address));
-console.log(typeof(isApproved));
+console.log(typeof name);
+console.log(typeof address);
+console.log(typeof isApproved);
