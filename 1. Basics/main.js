@@ -1,5 +1,5 @@
-let name = "Nilesh";
-console.log(name);
+let my_name = "Nilesh";
+console.log(my_name);
 
 //Identifier validation
 //cannot be reserved keyword
@@ -23,6 +23,6 @@ let isApproved = false; // Boolean Literal
 let address = undefined;
 let selectedColor = null;
 
-console.log(typeof name);
+console.log(typeof my_name);
 console.log(typeof address);
 console.log(typeof isApproved);
