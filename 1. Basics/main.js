@@ -1,3 +1,6 @@
+const number = "12";
+console.log(+number + 2); // +[String] converts to number
+
 let my_name = "Nilesh";
 console.log(my_name);
 
