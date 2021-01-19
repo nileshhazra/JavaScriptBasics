@@ -34,14 +34,14 @@ console.log(x === 1); // true
 console.log(x !== 1); // false
 // Strict Equality (Type +  Value)
 console.log(1 === 1); //true
-console.log("1" === 1); // false
+console.log('1' === 1); // false
 //Lose Equality
 console.log(1 == 1); // true
-console.log("1" == 1); // true
+console.log('1' == 1); // true
 
 //ternary operator
 let points = 110;
-let type = points >= 100 ? "Gold" : "Silver";
+let type = points >= 100 ? 'Gold' : 'Silver';
 console.log(type);
 
 //Logical
@@ -55,7 +55,7 @@ let applicationRefused = !eligibleForLoan; // NOT operator
 // Falsy - undefined, null, 0, false, '', NaN
 // Truthy - Anything else
 let userColor = undefined;
-let defualtColor = "Black";
+let defualtColor = 'Black';
 let currentColor = userColor || defualtColor;
 console.log(currentColor);
 
@@ -79,5 +79,7 @@ const execute = 1;
 let myPermission = 0;
 myPermission = write | execute; // OR to assign permission
 
-let message = myPermission & read ? "Yes" : "No"; // AND to check if permission is there
+let message = myPermission & read ? 'Yes' : 'No'; // AND to check if permission is there
 console.log(message);
+
+console.log(true == 1);

@@ -1,7 +1,6 @@
 // template literal
-const name = "John";
-const another =
-`Hi ${name},
+const name = 'John';
+const another = `Hi ${name},
 Nice to meet you.
 your friend
 'james'`;
