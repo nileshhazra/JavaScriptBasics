@@ -6,10 +6,10 @@ numbers.reverse();
 console.log(numbers);
 
 const courses = [
-  { id: 1, name: "Node.js" },
-  { id: 2, name: "JavaScript" },
-  { id: 3, name: "C++" },
-  { id: 4, name: "Python" },
+  { id: 1, name: 'Node.js' },
+  { id: 2, name: 'JavaScript' },
+  { id: 3, name: 'C++' },
+  { id: 4, name: 'Python' },
 ];
 
 courses.sort(function (a, b) {
