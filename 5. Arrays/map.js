@@ -8,3 +8,7 @@ const filtered = numbers.filter((x) => x >= 0);
 const items = filtered.map((n) => ({ value: n }));
 
 console.log(items);
+
+let str = 'listen';
+let newStr = [2, 1, 0, 4, 5, 3].map((i) => str[i]).join('');
+console.log(newStr);
